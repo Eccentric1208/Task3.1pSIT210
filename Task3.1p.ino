@@ -31,7 +31,7 @@ void setup() {
 }
 
 void loop() {
-  while (b < 10) {
+  while (b < 60) {
     if (sensorValue >= 400) {
       sensorValue = analogRead(sensorPin);
       Serial.println(sensorValue);
